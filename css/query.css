@@ -1,0 +1,460 @@
+/* 1130px === 130rem === 70.625em */
+
+@media screen and (max-width: 70.625em) {}
+
+
+
+/* 1030px === 103rem === 64.375em */
+@media screen and (max-width: 64.375em) {
+    .header__container {
+        width: 100%;
+        padding: 0 2.4rem;
+    }
+    .market-hero__section {
+        background-color: #000;
+        background-size: 100% 100%;
+    }
+    /* general style */
+    .nav__list {
+        gap: 2rem;
+    }
+    .trade__grid {
+        gap: 4.2rem;
+    }
+    .about-hero--svg {
+        height: 6rem;
+        bottom: -3%;
+    }
+    .hero__section--others, .how-hero__section {}
+    .hero__grid {
+        gap: 4.2rem;
+    }
+    .heading__primary {
+        font-size: 3.6rem;
+    }
+    .how-hero__grid {
+        margin-top: 6rem;
+    }
+    .how-how-two__grid {
+        gap: 4.8rem;
+    }
+    .footer .footer__grid {
+        gap: 4.8rem;
+    }
+    .stat span {
+        font-size: 4.2rem;
+    }
+    .trade-storage__section {
+        overflow: hidden;
+    }
+    /* .trade-storage__section .section__container {
+        padding: 0;
+        width: 100%;
+    } */
+    .trade-storage__section .overflow {
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+    .trade-storage__section .storage__grid {
+        width: 100rem;
+        justify-content: space-between;
+    }
+    .hero__grid--image {
+        transform: translateY(.08rem);
+        margin-bottom: 2rem !important;
+    }
+
+}
+
+
+
+
+/* 900px === 90rem === 56.25em */
+@media screen and (max-width: 56.25em) {
+    .about-hero--svg {
+        display: none;
+    }
+    .features__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .features-two__cards {
+        row-gap: 4.2rem;
+    }
+    .features-two__cards .features__figure {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .why__grid {
+        gap: 5.2rem;
+    }
+    .grid--three {
+        gap: 4.8rem;
+    }
+    .what__grid .what--figure {
+        grid-row: initial;
+        grid-column: initial;
+    }
+    .what__section .what__grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
+
+/* 820px === 82rem === 51.25em */
+@media screen and (max-width: 51.25em) {
+    html {
+        font-size: 56.25%;
+    }
+    .nav__list {
+        gap: 1.2rem;
+    }
+    .mission__grid, .mission__text--box {
+        gap: 4.2rem;
+    }
+    .how-how__figure-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+    .market-hero__section {
+        padding: 16rem 0 8rem;
+        background-image: linear-gradient(to bottom, #ffffffe5, 60%, transparent), url(../imgs/pngs/market-hero.png);
+    }
+    .market .section__heading {
+        text-shadow: 0 0 4rem rgba(255, 255, 255, .8);
+    }
+    .team__section .overflow {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .team__section .section__container {
+        max-width: 100%;
+        padding: 0;
+    }
+    .team__cards {
+        width: 110rem !important;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about--stats {
+        gap: 4.2rem;
+    }
+    .why__grid {
+        gap: 2.8rem;
+    }
+    .why__grid .why__image-box {
+        height: 35rem;
+        overflow: hidden;
+        border-radius: 1rem;
+    }
+    .why__grid .why__image {
+        height: auto;
+        overflow: hidden;
+    }
+    .testimonial__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .why__text-content {
+        gap: 0;
+    }
+    .why__stats {
+        margin-left: 50%;
+    }
+    .what__grid {
+        gap: 2.8rem;
+    }
+    .what--figure  {
+        padding: 1.8rem;
+    }
+    .how-how__figure-image img {
+        height: 40rem;
+        width: 100%;
+    }
+    .storage__grid {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    .trade__grid, .section__grid.grid--three  {
+        grid-template-columns: 1fr 1fr;
+        gap: 6rem;
+    }
+    .how-how-two__section {
+        padding-top: 2.8rem;
+        margin-bottom: 15rem;
+        max-width: 100% !important;
+    }
+    .how-how-two__grid {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+    .how-how-two__figure span {
+        gap: 2.4rem;
+    }
+    .how-how-two__figure p {
+        color: #777;
+    }
+    .contact__grid {
+        gap: 4.2rem;
+    }
+    .contact__image {
+        height: 100%;
+        width: 100%;
+    }
+    .about__grid {
+        gap: 2.8rem;
+    }
+    .hero__grid {
+        gap: 0;
+    }
+    .hero__grid--image {
+        transform: translateY(.1rem);
+    }
+}
+        
+        
+/* 700px === 70rem === 43.75em */
+@media screen and (max-width: 43.75em) {
+    html { font-size: 51%; }
+    header .nav__list {
+        display: none;
+        opacity: 0;
+    } 
+    header .navigation-controls {
+        font-size: 2.8rem !important;
+        display: block;
+        opacity: 1 !important;
+        transition: all .35s;
+    }
+    .navigation-icon {
+        color: #666;
+    }
+    header .nav__list-m { 
+        display: flex;
+        opacity: 1;
+        flex-direction: column;
+        gap: 2.4rem;
+
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        width: 35rem;
+        height: 100vh;
+        background-color:#fff;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        padding: 2.4rem;
+        z-index: 200;
+
+        visibility: hidden;
+        margin: 0 auto;
+    }
+    .nav__list-m { 
+        padding: 4.8rem 3rem;
+        width: 100%;
+        align-items: flex-start;
+    }
+    header .nav__list-m .nav__item {
+        border: none !important;
+        padding: 0;
+    }
+    /* .features-two__image--box {
+        display: flex;
+        flex-direction: column;
+    } */
+    .market-hero__section .section__heading {
+        max-width: 100%;
+        line-height: 1.5;
+    }
+    .about__grid--text {
+        width: 100%;
+    }
+
+    .cta .section__heading {
+        width: 100%;
+    }
+    .footer__grid {
+        grid-template-columns: 1.7fr 1fr 1fr;
+    }
+}
+/* 600px === 60rem === 37.5em */
+@media screen and (max-width: 37.5em) {
+  
+    .hero__section {
+        background-position: 100%;
+        background-size: cover;
+        max-height: 100%;
+    }
+    .hero__grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero__grid--image {
+        width: 35rem;
+        /* display: none; */
+        margin-left: 0;
+    }
+    
+    .section__heading {
+        width: 100% !important;
+    }
+    .features__grid {
+        gap: 6.8rem;
+    }
+    .features--button p {
+        display: block;
+    }
+    .features__grid:hover, .features--button:hover {
+        transition:none;
+    }
+    .features__grid:hover 
+    .features--button:hover p {
+        display: block;
+    }
+    .what__section .what__grid, .features__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .features-two {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .features-two__image--box, .features-two__image {
+        display: none;
+        opacity: 0;
+    }
+    .features-two__section {
+        background-image: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url('../imgs/pngs/feature-two.png');
+    }
+    .mission__grid {
+        grid-template-columns: 1fr;
+    }
+    .mission__text--box {
+        gap: 2.4rem;
+    }
+    .mission__text--box span {
+        gap: 1rem;
+    }
+    .about--stats {
+        gap: 3.2rem;
+    }
+    .about__grid {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .why__grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .why__stats {
+        margin: 0;
+    }
+    .testimonial__cards {
+        grid-template-columns: 1fr;
+    }
+    .about__image {
+        width: 80%;
+    }
+    .trade__grid {
+        gap: 3.6rem;
+    }
+    .how-how__figure .how--svg {
+        display: block;
+        opacity: 0;
+    }
+    .how-how__figure-head h5 {
+        margin-bottom: -1.2rem;
+    }
+    .contact__grid {
+        grid-template-columns: 1fr;
+    }
+    .contact__image {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .section__illustrations {
+        display: none;
+        opacity: 0;
+    }
+    .contact--info {
+        gap: 2.4rem;
+        margin-top: 2.4rem;
+    }
+    .why__text-content {
+        gap: 2.4rem;
+    }
+    
+}
+
+/* 500px === 50rem === 31.25em */
+@media screen and (max-width: 31.25em) {
+    .how-hero__image-box img {
+        position: static;
+        transform: translate(0);
+    }
+    .market-hero__section {
+        background-image: linear-gradient(to bottom, #ffffffe5, 80%, transparent), url(../imgs/pngs/market-hero.png);
+    }
+    .how-hero__image-box {
+        display: none;
+        opacity: 0;
+    }
+    .about-figure__section {
+        border-radius: 0;
+    }
+    .what__grid, .section__grid.grid--three {
+        gap: 2.8rem;
+        grid-template-columns: 1fr !important;
+    }
+    .about--stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .how-hero__grid {
+       display: inline-block;
+       align-items: center;
+       justify-content: center;
+    }
+    .how-how-two__section {
+        margin-bottom: 35rem;
+    }
+    .how-how-two__figure span {
+        display: flex;
+        flex-direction: column;
+        gap: 2.8rem;
+        align-items: flex-start;
+    }
+    .trade__grid {
+        grid-template-columns: 1fr;
+        gap: 4.8rem;
+    }
+    .footer__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer__grid div:nth-child(1) {
+        grid-row: 1 / 2;
+        grid-column: 1 / -1;
+    }
+    .footer__img {
+        margin: 0;
+    }
+}
+
+/* 420px === 42rem === 26.25em */
+@media screen and (max-width: 26.25em) {
+    .how-how-two__figure span img{
+        height: 3.6rem;
+    }
+    .footer__grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .features__grid {
+        gap: 2.4rem;
+    }
+}

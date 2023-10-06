@@ -1,0 +1,230 @@
+.market-hero__section {
+    padding: 16rem 0 8rem;
+    background-image: linear-gradient(to bottom, #ffffffe5, 40%, transparent), url('../imgs/pngs/market-hero.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 70rem;
+}
+.market-hero__section .section__heading {
+    max-width: 80%;
+    margin: auto;
+    line-height: 1.3;
+}
+
+
+
+/*  */
+.trade-sponsorship__section {
+    transform: translateY(-10rem);
+    border-top-right-radius: 6rem;
+    border-top-left-radius: 6rem;
+    z-index: 2;
+    background-color: #fff;
+}
+
+
+
+
+
+.trade-sponsorship__section .section__sub-heading {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 5.4rem;
+}
+.trade__grid, .storage__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8rem;
+    row-gap: 4.8rem;
+}
+.trade__figure {
+    border: 2px solid #eee;
+    border-radius: 1.8rem;
+    box-shadow: .4rem .4rem 4.8rem rgba(0, 0, 0, .081);
+    padding: 2.4rem;
+    background-color: #fff;
+}
+.trade__image-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+    /* height: 100%; */
+}
+.trade__image-box img {
+    width: 100%;
+    height: 100%;
+}
+.trade__image-box span {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 90%;
+    height: 4.2rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(3px);
+    color: #333;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trade__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem;
+    gap: 1.2rem;
+}
+.trade__content-text {
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+.trade__content--numbers {
+    padding: 1rem 2.2rem;
+    border-radius: 1.8rem;
+    background-color: rgba(217, 216, 140, 0.3);
+    color: #333;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+.trade__content--features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.trade__content--features span {
+    display: flex;
+    align-items: center;
+    gap: .24rem;
+    font-size: 1.2rem;
+}
+.trade__content-text, 
+.trade__content--features span p {
+    color: #777;
+}
+.trade__content--button {
+    background-color: #598447;
+    color: #eee !important;
+    font-weight: 600;
+    align-self: center;
+}
+.trade__content--button, .trade--load-more {
+    padding: 1.2rem 2.2rem;
+    border-radius: 1.4rem;
+}
+.trade--load-more {
+    display: inline-block;
+    color: #444 !important;
+    box-shadow: 0 0 0 2px #eee;
+
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin: 3.6rem auto 0;
+}
+
+.trade-storage__section {
+    background-color: rgba(217, 215, 140, 0.3);
+    margin-top: -10rem;
+}
+.trade-storage__section .section__container {
+    max-width: 110rem;
+}
+.storage__grid {
+    gap: 4.8rem;
+}
+.storage__dots {
+    margin-top: 4.8rem;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    justify-content: center;
+}
+.storage__dots div {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #598447;
+}
+.storage__dots .active {
+    background-color: #598447;
+}
+
+
+
+
+/* .trade-market__section {} */
+.trade-market__section .trade__image-box span {
+    background-color: rgba(217, 216, 140, 0.6);
+}
+/* D9D88C */
+.trade-market__section .trade__grid {
+    column-gap: 7.2rem;
+}
+.trade__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+}
+.trade__actions .trade--load-more {
+    margin: 0;
+    box-shadow: 0 0 0 2px #598447a8;
+    color: #598447 !important;
+}
+.trade-market__section .trade__content--button {
+    padding: 1.4rem 2.4rem;
+}
+
+
+.trade-market__section, .trade__content-text {
+    text-align: center;
+}
+.trade__marketer-card {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.marketer-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.marketer-image-box {
+    position: relative;
+}
+.marketer-image-box img:nth-child(1) {
+    height: 5.2rem;
+    width: 5.2rem;
+}
+.marketer-image-box img:nth-child(2) {
+    position: absolute;
+    top: 10%;
+    right: -2.8%;
+}
+.marketer-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .6rem;
+}
+.marketer-name {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #333 !important;
+}
+.marketer-sold {
+    font-size: 1.2rem;
+    color: #777 !important;
+    text-transform: capitalize;
+}
+.trade-market__section .trade__content--numbers {
+    padding: 1rem 1.4rem;
+}

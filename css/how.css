@@ -1,0 +1,181 @@
+
+.how-hero__section {
+    padding: 12rem 0 0rem;
+
+    width: 100%;
+    height: 55rem;
+    background-color: #598447;
+    border-bottom-right-radius: 25rem;
+    outline: .26rem solid #598447;
+    outline-offset: 1.4rem;
+}
+
+.how-hero__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+}
+.how-hero__image-box {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    height: 40rem;
+}
+.how-hero__image-box img {
+    height: 48rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.how-hero__content {
+    color: #fff;
+}
+.how__heading {
+    font-size: 2rem;
+    margin-bottom: 4.8rem;
+}
+.how-hero__content p{
+    font-size: 1.8rem;
+    line-height: 1.4;
+    text-align: left;
+    margin-bottom: 3.2rem;
+}
+
+.how-hero__button {
+    padding: 1.2rem 2rem;
+    color: #598447 !important;
+    background-color: #fff;
+    border-radius: 1.4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+
+.how-how__section {
+    padding: 12rem 0 8rem;
+}
+.how-how__fluid {
+    display: flex;
+    flex-direction: column;
+    gap: 4.2rem;
+}
+.how-how__figure {
+    position: relative;
+    margin-bottom: 2.4rem;
+}
+.how--svg {
+    height: 9rem;
+    position: absolute;
+    top: -8%;
+}
+.left .how--svg {
+    right: 18%;
+    transform: rotate(-75deg);
+}
+.right .how--svg {
+    left: 18%;
+    transform: rotate(75deg);
+}
+.how-how__figure-head {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    max-width: 75%;
+    border-bottom: .2rem solid #888;
+    padding-bottom: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+.how-how__figure-head h5 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #888 !important;
+}
+.how-how__figure-head h3 {
+    color: #555 !important;
+}
+.how-how__figure-head.left {
+    text-align: left;
+}
+.how-how__figure-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.05fr;
+    gap: 8rem;
+    align-items: center;
+}
+.how-how__figure-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.4rem;
+    overflow: hidden;
+}
+.how-how__figure-image img {
+    width: 100%;
+}
+.how-how__figure-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.how-how__figure-content p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.how-how__figure-button {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #598447 !important;
+}
+.how-how__figure-button img {
+    height: 1.2rem;
+    margin-left: 1rem;
+}
+
+.how-how__figure-head.right {
+    justify-content: flex-end;
+    text-align: right;
+    margin-left: auto;
+}
+
+
+/*  */
+.how-how-two__section {
+    padding: 6rem 0 0;
+    height: 20rem;
+    background-color: #598447;
+    margin-bottom: 10rem;
+}
+.card {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 4.8rem 2.4rem 2rem;
+    width: 90%;
+    margin: 0 auto;
+    /* transform: translateY(8rem); */
+}
+.how-how-two__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+}
+.how-how-two__figure {
+    display: flex;
+    flex-direction: column;
+}
+.how-how-two__figure h5 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.2;
+}
+.how-how-two__figure span {
+    display: flex;
+    gap: 1.2rem;
+}
+.how-how-two__figure span img {
+    height: 4.8rem;
+}
+.how-how-two__figure span p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
